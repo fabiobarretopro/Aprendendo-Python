@@ -1,0 +1,3 @@
+serieA = ("Atlético-MG", "Flamengo", "São Paulo", "Internacional", "Fluminense", "Palmeiras", "Santos", "Grêmio", "Corinthians", "Athletico-PR",
+          "Bahia", "Fortaleza", "Atlético-GO", "Red Bull Bragantino", "Ceará", "Sport", "Vasco", "Coritiba", "Botafogo", "Goiás")
+print(f"Os 5 primeiros colocados: {serieA[:5]}\nOs 4 últimos colocados na tabela: {serieA[-4:]}\nTimes em ordem alfabética: {sorted(serieA)}\nEm que posição está o time Ceará: {serieA.index('Ceará')+1}ºposição")
