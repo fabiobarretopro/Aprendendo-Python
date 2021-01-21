@@ -1,8 +1,10 @@
-from pessoa import Pessoa
+from classes import Escritor, Caneta, MaquinaDeEscrever
 
-p1 = Pessoa("Fábio", 41)
-p2 = Pessoa("Maria Clara", 6)
 
-p1.get_ano_nascimento()
-p2.get_ano_nascimento()
+escritor = Escritor("João Ubaldo Ribeiro")
+caneta = Caneta("BIC")
+maquina = MaquinaDeEscrever()
+
+escritor.ferramenta = caneta
+escritor.ferramenta.escrever()
 
