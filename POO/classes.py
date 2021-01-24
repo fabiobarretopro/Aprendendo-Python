@@ -1,33 +1,23 @@
-class Escritor:
-    def __init__(self, nome):
-        self.__nome = nome
-        self.__ferramenta = None
+class CarrinhoDeCompras:
+    def __init__(self):
+        self.produtos = []
 
-    @property
-    def nome(self):
-        return self.__nome
+    def inserir_produtos(self, produtos):
+                    self.produtos.append(produtos)
 
-    @property
-    def ferramenta(self):
-        return self.__ferramenta
+    def lista_produtos(self):
+                    for produto in self.produtos:
+                                    print(produto.nome, produto.valor)
+        
+    def soma_total(self):
 
-    @ferramenta.setter
-    def ferramenta(self, valor):
-        self.__ferramenta = valor
-
-
-class Caneta:
-    def __init__(self, marca):
-        self.__marca = marca
-
-    @property
-    def marca(self):
-        return self.__marca
-
-    def escrever(self):
-        print("A Caneta está escrevendo...")
+                    total = 0
+                    for produto in self.produtos:
+                                    total = total + produto.valor
+                    print(total)
 
 
-class MaquinaDeEscrever:
-    def escrever(self):
-        print("Máquina está escrevendo...")
+class Produto:
+    def __init__(self, nome, valor):
+        self.nome = nome
+        self.valor = valor
