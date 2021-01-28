@@ -1,0 +1,16 @@
+INFO: Pocophone já está conectado!
+INFO: Pocophone já está conectado!
+INFO: Pocophone já está conectado!
+ERRO: Pocophone Estava ligado, acabamos de conectar!
+ERRO: Pocophone Estava ligado, acabamos de conectar!
+ERRO: Pocophone não está conectado!!
+ERRO: Pocophone Estava ligado, acabamos de conectar!
+ERRO: Pocophone não está conectado!!
+ERRO: Pocophone Estava ligado, acabamos de conectar!
+ERRO: Pocophone não está conectado!!
+ERRO: Pocophone Estava ligado, acabamos de conectar!
+ERRO: Pocophone não está conectado!!
+ERRO: Pocophone Estava ligado, acabamos de conectar!
+ERRO: Pocophone não está conectado!!
+ERRO: Pocophone Estava ligado, acabamos de conectar!
+ERRO: Pocophone não está conectado!!
